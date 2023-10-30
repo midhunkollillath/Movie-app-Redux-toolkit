@@ -14,8 +14,8 @@ function App() {
           <Header />
           <div className='container'>
           <Routes>
-            <Route path='/' ex element={<Home />} />
-            <Route path='/movie/:imdbID' element={<MovieDetail />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/movie/:imdb' element={<MovieDetail />} />
             <Route path='*' element={<Pagenotfnd/>} />
           </Routes>
           </div>

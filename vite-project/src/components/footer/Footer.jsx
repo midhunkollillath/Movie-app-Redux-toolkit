@@ -4,7 +4,7 @@ function Footer() {
   return (
    <div className='footer'>
       <div>Movie App</div>
-      <div> ddasd ddsdh huwer iuvfvf ffnfnsf ferfir</div>
+      <div>Samle movie list using Redux toolkit</div>
    </div>
   )
 }
